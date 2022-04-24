@@ -65,7 +65,7 @@ let arr = [
     }
 ]
 
-const Setting = (props) => {
+const UserProfile = (props) => {
     return (
       <View style={styles.body}>
         <View style={styles.header}>
