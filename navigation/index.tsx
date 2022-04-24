@@ -32,7 +32,7 @@ import GroupList from '../screens/GroupList';
 export default function Navigation({ colorScheme }: { colorScheme: ColorSchemeName }) {
   return (
     <NavigationContainer>
-        <Stack.Navigator initialRouteName="AddMembers">
+        <Stack.Navigator initialRouteName="UserProfile">
           <Stack.Screen
             name="CreateGroup"
             component={CreateGroup}
